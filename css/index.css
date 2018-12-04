@@ -1,0 +1,350 @@
+/*底部广告，去掉无影响*/
+.ban_bg{
+	width: 100%;
+	height: 470px;
+	background: url(../img_index/5b7387f9N40212511.png) no-repeat center top;
+	position: absolute;
+	z-index: -1;
+}
+
+
+
+.ban_main {
+	width: 1190px;
+	height: 470px;
+	background: #f0f3ef;
+}
+/*左边列表*/
+.ban_left {
+   width: 190px;
+   height: 480px;
+   background: #fff;
+   margin-top:-10px;
+   float: left;
+}
+.ban_left ul {
+	width: 190px;
+	height: 465px;
+	padding-top: 5px;
+}
+.ban_left li {
+	margin-left: 16px;
+	line-height: 27px;
+}
+/*中间的大图片*/
+.ban_middle {
+	width: 590px;
+	height: 470px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+.ban_middle a {
+	font-family: "宋体"; 
+	font-size: 18px; 
+	width: 24px;
+    height: 40px;
+}
+.ban_middle .ban_mleft,.ban_mright {
+    width: 24px;
+    height: 40px;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top:50%;
+    margin-top:-8px;
+}
+.ban_mleft {
+	left: 0;
+}
+.ban_mright {
+	right: 0;
+}
+
+
+.ban_mmiddle {
+   width: 145px;
+   height: 10px;
+   position: absolute;
+   left: 50px;
+   bottom: 24px;
+}
+
+.ban_mmiddle li {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border :2px solid rgba(255,255,255,.4);
+	float: left;
+	margin-right: 8px;
+}
+.ban_mmiddle li:last-child {
+	margin: 0 none;
+}
+.ban_mmiddle li:nth-last-child(2) {
+	background: #fff;
+}
+
+/*小图片*/
+.ban_mid_l {
+	width: 190px;
+	height: 470px;
+	float: left;
+	margin-left: 10px;
+}
+.ban_mid_l img:nth-child(2) {
+	margin-top: 6px;
+}
+.ban_mid_l img:nth-child(3) {
+	margin-top: 6px;
+}
+
+/*右边列表*/
+.ban_right {
+	width: 190px;
+	height: 470px;
+	float: right;
+	background: #fff;
+}
+.wbanr {
+	width: 160px;
+	margin: 0 auto;
+}
+
+.banr_one {
+	width: 160px;
+	height: 120px;
+	text-align: center;
+	font-size: 12px;
+}
+.banr_oneimg {
+	width: 60px;
+	height: 60px;
+	border: 6px solid #e3e1df;
+	border-radius: 50%;
+	background: url(../img_index/no_login.jpg) no-repeat;
+	margin-left: 45px;
+	margin-top: -10px;
+	box-shadow: 10px 10px 20px #ccc;
+	margin-bottom: 10px;
+}
+
+/*100 40 130 190 */
+.banr_two {
+	width: 160px;
+	height: 40px;
+}
+.banr_two div {
+	width: 70px;
+	height: 25px;
+	border-radius: 12px;
+	text-align: center;
+	box-shadow: 6px 6px 20px #ccc;
+	line-height: 30px;
+	font-size: 12px;
+}
+.banr_two div:nth-child(1) {
+	background-color: #fff;
+    color: red;
+}
+.banr_two div:nth-child(2) {
+	background-color: #363634;
+	color: #e5d790;
+}
+
+
+.banr_thr {
+	width: 160px;
+	height: 130px;
+	border-bottom: 1px solid #ccc;
+}
+.banr_thrtop {
+	height: 22px;
+	line-height: 22px;
+}
+.banr_thrtop li {
+	float: left;
+	margin:0 5px;
+}
+.banr_thrtop a {
+	color: #333333;
+}
+.banr_thrtop li:first-child a {
+	border-bottom: 2px solid red;
+}
+.banr_thrtop span {
+	color: #ccc;
+}
+
+.banr_thrbot  {
+	line-height: 22px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.banr_fou {
+	width: 160px;
+	height: 180px;
+	padding-top: 10px;
+}
+.banr_fou li {
+	float: left;
+}
+.banr_fou a {
+	width: 40px;
+	height: 60px;
+	display: block;
+	/*background: red;*/
+	text-align: center;
+	overflow: hidden;
+}
+.banr_fou i {
+	width: 22px;
+	height: 24px;
+	display: block;
+	background: url(../img_index/icon_lifeserv.png) no-repeat -1px 0;
+	margin-left: 9px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+
+/*主体部分*/
+.main {
+	background-color: #f0f3ef;
+	overflow: hidden;
+}
+.main_top {
+	width: 1190px;
+	height: 275px;
+	background: #fff;
+	margin-top: 30px;
+}
+.main_tl {
+	width: 190px;
+	height: 275px;
+	float: left;	
+}
+
+.main_tm {
+	width: 800px;
+	height: 275px;
+	float: left;
+	position: relative;
+}
+.main_tm div {
+	width: 199px;
+	height: 275px;
+	border-right: 1px solid #ccc;
+	float: left;
+	text-align: center;
+}
+.main_tm div p {
+	margin-top: 20px;
+}
+.main_tm div ul {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.main_tm div li {
+	float: left;
+
+}
+.main_tm div li:nth-child(1) {
+	width: 81px;
+	height: 22px;
+	background: red;
+	color: #fff;
+	font-weight: 700;
+}
+.main_tm div li:nth-child(2) {
+	width: 80px;
+	height: 20px;
+	border-right: 1px solid red;
+	border-bottom: 1px solid red;
+	border-top: 1px solid red;
+  
+}
+.main_tmleft {
+    width: 20px;
+    height: 40px;
+    background: rgba(0,0,0,.2);
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top:50%;
+    margin-top:-20px;
+}
+.main_tm .main_tmright {
+	 width: 20px;
+    height: 40px;
+    background: rgba(0,0,0,.2);
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top:50%;
+    margin-top:-20px;
+}
+.main_tm .main_tmleft,.main_tmright a {
+	font-family: "宋体"; 
+	font-size: 18px; 
+	width: 20px;
+    height: 40px;
+}
+.main_tmleft {
+	left: 0;
+}
+.main_tmright {
+	right: 0;
+}
+
+.main_tm .main_tmmiddle {
+	width: 30px;
+	height: 40px;
+	background: url(../img_index/sprite.seckill.png) no-repeat left -25px;
+	position: absolute;
+	top: 0;
+	left: 205px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.main_tr {
+	width: 200px;
+	height: 268px;
+	text-align: center;
+	float: left;
+    padding-top: 7px;
+}
+
+
+/*第二个*/
+.main_bottom {
+	width: 1190px;
+	height: 305px;
+	margin-top: 30px;
+}
+.main_bottom div {
+	width: 230px;
+	height: 305px;
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+	background: #fff;
+}
+.main_bottom div:nth-child(5) {
+	margin: 0 auto;
+}
+.main_bottom div img {
+	margin-top: 30px;
+}
+.main_bottom div p {
+	margin-top: 20px;
+	padding: 0 16px;
+	margin-bottom: 14px;
+}
+.main_bottom div span {
+	color: red;
+}

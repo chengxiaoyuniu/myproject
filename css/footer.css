@@ -1,0 +1,129 @@
+.footer {
+	width: 100%;
+	height: 578px;
+	background: #f0f3ef;
+}
+/*上*/
+.foot_t {
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+	line-height: 100px;
+}
+.foot_t li {
+	float: left;
+	margin-right: 80px;
+}
+.foot_t i {
+	width:36px;
+	height: 42px; 
+	display: inline-block;
+	vertical-align: middle;
+}
+.foot_t li:nth-child(1) {
+	margin-left: 38px;
+}
+.foot_t span {
+	font-size: 18px;
+	font-weight: 700;
+}
+.foot_t li:nth-child(4) {
+	margin: 0 none;
+}
+.foot_t li:nth-child(1) i:nth-child(1) {
+	background: url(../img_index/sprite.footer.png) no-repeat 0 -192px;     
+}
+.foot_t li:nth-child(2) i:nth-child(1) {
+	background: url(../img_index/sprite.footer.png) no-repeat -41px -192px;  
+}
+.foot_t li:nth-child(3) i:nth-child(1) {
+	background: url(../img_index/sprite.footer.png) no-repeat -82px -192px;    
+}
+.foot_t li:nth-child(4) i:nth-child(1) {
+	background: url(../img_index/sprite.footer.png) no-repeat -123px -192px;   
+}
+
+
+/*中*/
+.foot_m {
+	height: 200px;
+	border-bottom:1px solid #ccc;
+}
+
+.foot_ml dl {
+	float: left;
+	margin-right: 120px;
+	margin-top: 25px;
+}
+.foot_ml dl dt{
+	margin-bottom: 10px;
+}
+.foot_ml dl dd {
+	line-height: 22px;
+}
+
+.foot_mr {
+	width: 200px;
+	height: 150px;
+	background: url(../img_index/sprite.footer.png) no-repeat left top;
+	margin-top: 25px;
+	text-align: center;
+}
+.foot_mr p {
+	margin-top: 20px;
+}
+.foot_mr a {
+	float: right;
+}
+
+
+.foot_b span {
+	color: #ccc;
+	margin-left: 5px;
+}
+.foot_bt {
+	text-align: center;
+	margin-top: 15px;
+}
+.foot_bm {
+	margin-top: 15px;
+	text-align: center;
+}
+.foot_bm i {
+	width: 15px;
+	height: 10px;
+	display: inline-block;
+	background: url(../img_index/sprite.footer.png) no-repeat -108px -172px;
+	margin-right: 10px;
+}
+
+
+.foot_bb {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.foot_bb i {
+	width: 103px;
+	height: 32px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.foot_bb i:nth-child(1) {
+	background: url(../img_index/sprite.footer.png) no-repeat -205px top;
+}
+.foot_bb i:nth-child(2) {
+	background: url(../img_index/sprite.footer.png) no-repeat -205px -37px;
+}
+.foot_bb i:nth-child(3) {
+	background: url(../img_index/sprite.footer.png) no-repeat -205px -74px;
+}
+.foot_bb i:nth-child(4) {
+	background: url(../img_index/sprite.footer.png) no-repeat -205px -111px;
+}
+.foot_bb i:nth-child(5) {
+	background: url(../img_index/sprite.footer.png) no-repeat -205px -148px;
+}
+.foot_bb i:nth-child(6) {
+	background: url(../img_index/sprite.footer.png) no-repeat -205px -37px;
+}
+

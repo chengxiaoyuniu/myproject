@@ -1,0 +1,53 @@
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,ol,dd {
+	margin: 0;
+	padding: 0;
+	list-style: none ;
+
+
+    font-size: 14px;
+	font-family: "微软雅黑";
+}
+a {
+	color:  #999999;
+	text-decoration: none;
+}
+a:hover {
+	color: #f10215;
+}
+
+img,input {
+	border: 0 none;
+	outline-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* 清除浮动代码 */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+
+
+/* 版心 */
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
